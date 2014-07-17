@@ -17,6 +17,7 @@ public class MyResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
+        System.out.println("Received something");
         return "Got it!";
     }
 }
