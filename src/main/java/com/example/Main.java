@@ -13,8 +13,6 @@ public class Main {
     public static HttpServer startServer() {
         final ResourceConfig rc = new ResourceConfig().packages("com.example");
 
-        // create and start a new instance of grizzly http server
-        // exposing the Jersey application at BASE_URI
         return GrizzlyHttpServerFactory.createHttpServer(URI.create(BASE_URI), rc);
     }
 
