@@ -18,6 +18,8 @@ public class MyResource {
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
         System.out.println("Received something");
+	System.out.println("Completed feature/SS-05");
+	System.out.println("Needed another comment");
         return "Got it!";
     }
 }
