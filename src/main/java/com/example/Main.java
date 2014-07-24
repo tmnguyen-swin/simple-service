@@ -22,8 +22,6 @@ public class Main {
                 + "%sapplication.wadl\nHit enter to stop it...", BASE_URI));
 	// Added new comment
 	System.out.println("I added a new comment here");
-	System.out.println("Hello from ubu-tst-app1");
-	System.out.println("Hello from ubu-prd-app1");
         System.in.read();
         server.stop();
     }
